@@ -1,6 +1,6 @@
-# HIV Drug Resistance Prediction for NNRTI (3TC) using CNN
+# HIV Drug Resistance Prediction for NRTI (3TC) using CNN
 
-This repository contains a Python implementation of a Convolutional Neural Network (CNN) for predicting HIV drug resistance to the NNRTI drug **3TC (TTC)**. The model is trained on sequence data and uses 5-fold cross-validation for evaluation. This code is a refactoring of the original R code from the paper **"Deep learning predicts HIV drug resistance from viral sequences"** ([PMC7290575](https://pmc.ncbi.nlm.nih.gov/articles/PMC7290575/)), adapted to focus on the ART drug **3TC**.
+This repository contains a Python implementation of a Convolutional Neural Network (CNN) for predicting HIV drug resistance to the NRTI drug **3TC (TTC)**. The model is trained on sequence data and uses 5-fold cross-validation for evaluation. This code is a refactoring of the original R code from the paper **"Deep learning predicts HIV drug resistance from viral sequences"** ([PMC7290575](https://pmc.ncbi.nlm.nih.gov/articles/PMC7290575/)), adapted to focus on the ART drug **3TC**.
 
 ---
 
@@ -23,7 +23,7 @@ This repository contains a Python implementation of a Convolutional Neural Netwo
 
 ## Overview
 
-The goal of this project is to predict HIV drug resistance to the NNRTI drug **3TC (TTC)** using sequence data. The model is a 1D CNN that takes as input the sequence of the HIV Reverse Transcriptase (RT) gene and outputs a binary prediction:
+The goal of this project is to predict HIV drug resistance to the NRTI drug **3TC (TTC)** using sequence data. The model is a 1D CNN that takes as input the sequence of the HIV Reverse Transcriptase (RT) gene and outputs a binary prediction:
 - `1`: Resistant to 3TC.
 - `0`: Not resistant to 3TC.
 
