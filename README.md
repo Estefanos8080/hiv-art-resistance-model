@@ -23,7 +23,7 @@ This repository contains a Python implementation of a Convolutional Neural Netwo
 
 ## Overview
 
-The goal of this project is to predict HIV drug resistance to the NRTI drug **3TC (TTC)** using sequence data. The model is a 1D CNN that takes as input the sequence of the HIV Reverse Transcriptase (RT) gene and outputs a binary prediction:
+The goal of this project is to predict HIV drug resistance to the NRTI drug **3TC (TTC)** using sequence data. The model is a 1D CNN that takes as input the amino acid sequence of the HIV Reverse Transcriptase (RT) gene and outputs a binary prediction:
 - `1`: Resistant to 3TC.
 - `0`: Not resistant to 3TC.
 
